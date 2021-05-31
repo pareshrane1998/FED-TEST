@@ -208,3 +208,61 @@ body { font-family: Arial, Helvetica, sans-serif;}
     font-size: 0.8rem;
     letter-spacing: 1px;
 }
+
+/* about section start */
+
+.about .wrapper {
+  display: flex;
+}
+
+.about .wrapper > * {
+  flex-basis: 100%;
+}
+
+.about .wrapper h2 {
+  font-size: 1.7rem;
+  text-transform: capitalize;
+  padding-top: 8%;
+  padding-bottom: 20px;
+}
+
+.about .wrapper p {
+  line-height: 1.6;
+}
+
+.about a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 12px 18px;
+  margin-top: 20px;
+  background: #333;
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  margin-bottom: 10%;
+}
+
+.about-content , .history {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.history {
+  background: #333;
+  color: #fff;
+}
+
+.history a {
+  background: #fff;
+  color: #333;
+}
+
+/* about media queries */
+
+@media (max-width:750px){
+  .about .wrapper {
+      flex-direction: column;
+  }
+}
