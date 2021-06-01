@@ -314,13 +314,15 @@ body { font-family: Arial, Helvetica, sans-serif;}
   text-transform: capitalize;
 }
 
+.news h2 { padding-top: 50px;}
+
 .club-news {
   margin-top: 4%;
-  background: #333;
-  color: #fff;
+  background: #fff;
+  color: #333;
 }
 
-.club-news a { color: #fff;}
+.club-news a { color: #333;}
 
 .club-news h2 { padding-top: 50px;}
 
@@ -379,3 +381,39 @@ body { font-family: Arial, Helvetica, sans-serif;}
 .gallery-images { margin-top: 40px;}
 
 .gallery-images img { border-radius: 5px;}
+
+/* sponsors */
+
+.sponsors {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("/img-j/field.jpg") no-repeat center center/cover;;
+}
+
+.sponsors li { list-style: none;}
+
+.spons-list {
+  /* padding: 40px 25px; */
+  /* padding: 20px 25px 80px 25px; */
+  padding-top: 30px;
+  padding-bottom: 80px;
+  display: flex;
+  justify-content: center;
+  gap:4rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.sponsors h2 {
+  text-align: center;
+  color: #f4f4f4;
+  padding-top: 70px;
+  /* padding-bottom: 50px; */
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+
+@media (max-width:1112) {
+  .sponsors li {
+    flex: 25%;
+  }
+
+}
