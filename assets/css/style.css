@@ -385,7 +385,7 @@ body { font-family: Arial, Helvetica, sans-serif;}
 /* sponsors */
 
 .sponsors {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("/img-j/field.jpg") no-repeat center center/cover;;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("/img/field.jpg") no-repeat center center/cover;;
 }
 
 .sponsors li { list-style: none;}
