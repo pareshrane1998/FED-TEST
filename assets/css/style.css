@@ -274,14 +274,14 @@ body { font-family: Arial, Helvetica, sans-serif;}
  
   
 }
-.news img, .club-news img {
+.news img, .club-news img , .gallery img {
   width: 100%;
   height: 100%;
 }
 
-.news li, .club-news li { list-style: none; max-width: 300px;}
+.news li, .club-news li , .gallery-images li { list-style: none; max-width: 300px;}
 
-.news figure , .club-news figure {
+.news figure , .club-news figure , .gallery figure {
   /* width: 315px; */
   height: 200px;
 }
@@ -307,7 +307,7 @@ body { font-family: Arial, Helvetica, sans-serif;}
   line-height: 1;
 }
 
-.news h2, .club-news h2 {
+.news h2, .club-news h2, .gallery h2 {
   padding-bottom: 50px;
   text-align: center;
   font-size: 2rem;
@@ -333,3 +333,49 @@ body { font-family: Arial, Helvetica, sans-serif;}
   }
 
 }
+
+/* gallery section css */
+
+.gallery {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.gallery-btn {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.gallery-btn a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 8px 14px;
+  margin-right: 20px;
+  /* background: #37003c; */
+  background: #333;
+  color: #fff;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 3px;
+  transition: all 0.5s ease-in;
+  margin-bottom: 10px;
+}
+
+.gallery-btn a:hover {
+  background: #c1c1c1;
+  color: #333;
+}
+
+.gallery h2 {
+  padding-bottom: 30px;
+}
+
+.gallery li { list-style: none;}
+
+.gallery-images { margin-top: 40px;}
+
+.gallery-images img { border-radius: 5px;}
